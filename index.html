@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>jigsawciety :: home</title>
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker%7cRock+Salt" rel="stylesheet">
+<link rel="stylesheet" href="jig.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+	$("#flip").click(function () {
+		$("#panel").slideToggle("slow");
+	});
+});
+</script>
+
+</head>
+<body>
+
+<div id="wrapper">
+<header><h1></h1></header>
+
+<nav>
+<ul>
+<li><a href="index.html"><span data-title="Home">Home</span></a></li>
+<li><a href="aboutjig.html"><span data-title="About">About</span></a></li>
+<li><a href="member.html"><span data-title="Membership Rules">Membership Rules</span></a></li>
+<li><a href="events.html"><span data-title="Upcoming Events">Upcoming Events</span></a></li>
+<li><a href="contact.html"><span data-title="Contact">Contact</span></a></li>
+<li><a href="gallery.html"><span data-title="Image Gallery">Image Gallery</span></a></li>
+</ul>
+</nav>
+
+<main id="jig">
+<h2>Hi there.</h2>
+<p>Find out who we are,
+  <p>what we do,
+  <p>where to find us,
+    <p>and how to talk to us.</p>
+    
+
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #008c9e;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">Navigating this Site</div>
+<div id="panel">
+<ul>
+<li>You're at the "Home" page.</li>
+<li>"About" page for club details.</li>
+<li>"Membership Rules" page for... rules.</li>
+<li>"Upcoming Events" page for fun get-togethers.</li>
+<li>"Contact" page for chats.</li>
+<li>"Image Gallery" page for showcasing Picassos.</li>
+</ul>
+</div>
+    
+    
+</main>
+
+<footer>
+<small><i>jigsawciety &copy; 2015</i></small>
+</footer>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>jigsawciety :: rules</title>
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker%7cRock+Salt" rel="stylesheet">
+<link rel="stylesheet" href="jig.css">
+<script>
+function yes() {
+	document.getElementById("demo").innerHTML = "Got it.";
+}
+function no() {
+	document.getElementById("demo").innerHTML = "Hmm...";
+}
+	</script>
+</head>
+<body>
+
+<div id="wrapper">
+<header><h1></h1></header>
+
+<nav>
+<ul>
+<li><a href="index.html"><span data-title="Home">Home</span></a></li>
+<li><a href="aboutjig.html"><span data-title="About">About</span></a></li>
+<li><a href="member.html"><span data-title="Membership Rules">Membership Rules</span></a></li>
+<li><a href="events.html"><span data-title="Upcoming Events">Upcoming Events</span></a></li>
+<li><a href="contact.html"><span data-title="Contact">Contact</span></a></li>
+<li><a href="gallery.html"><span data-title="Image Gallery">Image Gallery</span></a></li>
+</ul>
+</nav>
+
+<main id="jig">
+<h2>Rules: Break 'em or follow 'em... your choice.</h2>
+
+<ol>
+  <li>Respect one another.</li>
+  <li>No obscene language.</li>
+  <li>Don't forget common sense.</li>
+  <li>You are YOU. Don't care  about what others think of you.</li>
+  <li>No fees needed. Just enjoy your time here.</li>
+  <li>Music is cool. Just don't start flame wars about music tastes.</li>
+  <li>If you are found violating these rules, we will ask for your dismissal
+    from the club's premises.</li>
+</ol>
+<fieldset>
+<p id="demo">Do you agree?</p>
+<button type="button" onclick="yes()">Yes</button>
+<button type="button" onclick="no()">No</button>
+</fieldset>
+</main>
+
+<br>
+<footer>
+<small><i>jigsawciety &copy; 2015</i></small>
+</footer>
+
+</body>
+</html>

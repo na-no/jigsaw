@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>jigsawciety :: contact</title>
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker%7cRock+Salt" rel="stylesheet">
+<link rel="stylesheet" href="jig.css">
+</head>
+<body>
+
+<div id="wrapper">
+<header><h1></h1></header>
+
+<nav>
+<ul>
+<li><a href="index.html"><span data-title="Home">Home</span></a></li>
+<li><a href="aboutjig.html"><span data-title="About">About</span></a></li>
+<li><a href="member.html"><span data-title="Membership Rules">Membership Rules</span></a></li>
+<li><a href="events.html"><span data-title="Upcoming Events">Upcoming Events</span></a></li>
+<li><a href="contact.html"><span data-title="Contact">Contact</span></a></li>
+<li><a href="gallery.html"><span data-title="Image Gallery">Image Gallery</span></a></li>
+</ul>
+</nav>
+
+<main id="jig">
+<h2>Comments, Questions, Suggestions. . . Oh My!</h2>
+<p>Required fields*</p>
+<fieldset>
+<legend>Info</legend>
+<form name="order" form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+<label>*First name: </label> <input type="text" id="myFName" name = "myFName" required>
+<label>*Last name: </label> <input type="text" id="myLName" name = "myLName" required>
+  <label>*Email </label> <input type="text" name="email" id="email" size="35" required>
+  <label>Phone: </label> <input type="tel" id="myPhone" name="myPhone" maxlength="12">
+  <label>Comments </label> <textarea name="cm" id="cm" cols="30" rows="2">Enter comments</textarea>
+  
+  <button onclick="myFunction()">Check Info</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+	var x;
+	if (confirm("Is the information correct?") == true) {
+		x = "Ok";
+	} else {
+		x = "Cancel";
+	}
+	document.getElementById("demo").innerHTML = x;
+}
+</script>
+<input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
+</fieldset>
+
+</main>
+
+<br>
+<footer>
+<small><i>jigsawciety &copy; 2015</i></small>
+</footer>
+</div>
+
+
+</body>
+</html>

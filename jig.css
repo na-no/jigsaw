@@ -1,0 +1,211 @@
+h1 {font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color:#FFFFFF;}
+
+h2 {font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color:#FFFFFF;}
+
+/*change color of background color*/
+#wrapper {width:80%; min-width:960px; max-width: 2048px;
+          margin-right:auto;
+          margin-left:auto;
+          box-shadow: 5px 5px 5px #2E0000;
+          background-color:#00B4CC;
+          text-align:left;}
+
+header {background-color:#005F6B;
+        margin:0;
+        height:100px;
+      background-image: url("coollogo.png");
+      background-position: center;
+      background-repeat: no-repeat;}
+
+header h1 {color:#FFFFFF;
+			text-align: left;}
+
+body {background-color: #00b4cc;
+      font-family:'Rock Salt';
+      background-image: linear-gradient(to bottom, #FFFFFF, #00b4cc);
+      background-repeat: no-repeat;
+	  background-image: url(ferris.jpg);
+	  background-position:center;
+	  background-repeat: no-repeat;}
+
+p {font-family: 'Rock Salt', cursive;
+    font-size: 14px;
+    text-align: center;
+    color:#FFFFFF;}
+
+nav {padding: 10px;
+    float: left;
+    width: 160px;
+    color:#FFFFFF;
+    font-weight:bold;
+    text-align:center;}
+
+nav ul {list-style-type: none;
+        display: inline;
+        text-align: center;
+        line-height:normal;}
+
+nav li {font-family: 'Rock Salt', cursive;
+    font-size: 13px;}
+nav a {text-decoration:none;}
+nav a:link {color:#FFFFFF;}
+nav a:visited {color:#F9F2E7;}
+nav a:hover {color:#000000;}
+
+main {background-color:#008C9E;
+      margin-left: 175px;
+      padding: 20px;
+      display: block;}
+
+main dd {font-size: 13px;
+        text-align: center;}
+
+main img {float:left;
+          padding-right: 2em;}
+
+main div {overflow:auto;
+          font-size:90%;
+          padding-left:5%;
+          padding-right:5%;}
+
+main ul {list-style-position:inside;}
+
+main legend {color:#FFFFFF;}
+
+ol li {font-size: 12px;}
+
+form label {color:#FFFFFF;}
+
+form textarea {color:#000000;
+              font-family: 'Helvetica';}
+
+form input {color:#000000;
+            font-family: 'Helvetica';}
+
+table {width: 100%;
+		background-image:url(fall.jpeg);
+		background-position: center;}
+
+th {height: 50px;}
+
+table td {font-family: 'Helvetica';}
+
+table th {font-family: 'Helvetica';}
+
+table, th, td {border: 1px solid #FFFFFF;}
+
+#jig {height:800px;
+    color:#F5F5DC;
+    /*background-image:url(coneyisland.jpg);
+    background-size: 100% 100%;*/}
+
+a {color: #008c9e;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  -o-perspective: 600px;
+  -ms-perspective: 600px;
+  perspective: 600px;
+  -webkit-perspective-origin: 50% 50%;
+  -moz-perspective-origin: 50% 50%;
+  -o-perspective-origin: 50% 50%;
+  -ms-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
+}
+
+a span {display: block;
+  padding:0 2px;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 0%;
+  -o-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;}
+
+a:hover span {
+  background: #008c9e;
+  -webkit-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  -moz-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  -o-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  -ms-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+}
+
+a span:after {content: attr(data-title);
+  display:block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 2px;
+  color: #fff;
+  background: #00b4cc;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -o-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  -moz-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  -o-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  -ms-transform: translate3d(0px, 105% 0px) rotateX(-90deg);
+  transform: translate3d(0px, 105% 0px) rotateX(-90deg);}
+
+script {text-align:center;}
+
+#flip ul {list-style-type: none;}
+
+#panel li {list-style-type: none;}
+
+
+footer {font-family: 'Rock Salt', cursive;
+        font-size: 15px;
+        text-align: center;
+		color: #000000;
+		font-weight:bold;}
+
+#gallery {position:relative;}
+
+figure {position:absolute;
+        left: 280px;
+        text-align:center;
+        opacity:0.25;}
+
+#gallery ul {width: 300px;
+        list-style-type:none;}
+
+#gallery li {display:inline;
+        float:left;
+        padding:10px;
+    }
+
+#gallery img {border:none;}
+
+#gallery a {text-decoration:none;
+        color:#EAEAEA;
+        font-style:italic;}
+
+#gallery span {position:absolute;
+        left: -1000px;
+        opacity:0;
+        transition: opacity 3s ease-in-out;}
+
+#gallery a:hover span {position: absolute;
+        top: 15px;
+        left: 320px;
+        text-align:center;
+        opacity: 1;}
